@@ -20,5 +20,5 @@ def ceaser_encode(src, dist):
 def ceaser_decode(src, dist):
     return ceaser_encode(src, -dist)
 
-ceaser_encode('ZabcAZ',100)
+ceaser_encode('Hallo',100)
 ceaser_decode('AbcdBA',1)
