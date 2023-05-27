@@ -1,5 +1,8 @@
-from ..Exercise20.Exercise20 import Ding
+import sys
+sys.path.append('C:/Users/guere/Coding/Bachelor/Chapter4/Exercise20')
+from Exercise20 import Ding
 class Quader(Ding):
+    
     def __init__(self, symbol, laenge, breite, hoehe):
         Ding.__init__(self, symbol, laenge*breite*hoehe)
         self.__laenge = float(laenge)

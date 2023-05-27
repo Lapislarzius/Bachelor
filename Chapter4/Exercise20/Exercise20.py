@@ -1,3 +1,5 @@
+class FalseSymbolException(Exception):
+    pass
 class Ding():
     _dichte = {'Au':('Gold',19.32),
               'Fe':('Eisen',7.87),
@@ -9,6 +11,8 @@ class Ding():
             self._symbol = symbol
         except:
             print("Symbol {} nicht gefunden".format(symbol))
+            raise FalseSymbolException()
+
 
     def getMasse(self):
         return self.__volumen * self._dichte[self._symbol][1]
