@@ -11,6 +11,6 @@ int main(void)
     cout << "Bitte geben Sie einen Radius ein!";
     cin >> radius;
     cout << "Die Kugel hat folgende Eigenschaften\nOberflaeche = " << 4 * PI * QUAD(radius)
-         << "\nVolumen = " << 4 / 3.0 * PI * CUB(radius);
+        << "\nVolumen = " << 4 / 3.0 * PI * CUB(radius);
     return 0;
 }
