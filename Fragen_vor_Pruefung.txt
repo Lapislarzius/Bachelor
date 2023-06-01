@@ -1,2 +1,3 @@
 Aufgabe 11: Tanzpartner
 Aufgabe 21: Wie macht man einen Python import ohne den ganzen Pfad, beim Ausführen wird Aufgabe 20 auch ausgegeben, Warum?
+Aufgabe 30: z = *pp + strlen(*pp); warum +str

@@ -16,8 +16,8 @@ int main(void)
 
     while (is >> v) median.push_back(v);
 
-    for (int i = 0; i < median.size(); i++) {
-        for (int j = 0; j < median.size()-1; j++) {
+    for (size_t i = 0; i < median.size(); i++) {
+        for (size_t j = 0; j < median.size()-i-1; j++) {
             if (median.at(j) > median.at(j + 1)) {
                 SWAP(median.at(j), median.at(j + 1))
             }
