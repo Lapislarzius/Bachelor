@@ -2,6 +2,14 @@
 #include "solver.h"
 using namespace std;
 // ...
+#define FILENAME "main.cpp"
+#ifndef INLINE
+static const char* getSourceFilename() {
+    return FILENAME;
+    }
+#endif
+
+
 int main(void) {
     double matrix[DIM][DIM], result;
     // ...
