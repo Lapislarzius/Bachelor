@@ -1,0 +1,10 @@
+
+a) In welchen Fällen benötigt eine Klasse einen Kopierkonstruktor? Warum gehört die Klasse Employee aus Aufgabe 34 dazu? Erweitern Sie die Klasse Employee und geben Sie eine Implementierung für den Kopierkonstruktor von Employee an.
+	Eine Klasse benötigt einen Kopierkonstruktor, wenn sie über selbst verwalteten
+	Speicher verfügt. Das ist bei Employee mit name der Fall.
+
+b) Erweitern Sie die Klasse Employee um einen Zuweisungsoperator nach dem Copy&Swap-Idiom.
+
+b) In welchen Fällen benötigt eine Klasse einen Destruktor? Warum gehört die Klasse Employee aus Aufgabe 36 dazu? Geben Sie eine Implementierung für den Destruktor von Employee an.
+	Eine Klasse benötigt einen Destruktor, wenn sie über selbst verwalteten
+	Speicher verfügt. Das ist bei Employee mit name der Fall.

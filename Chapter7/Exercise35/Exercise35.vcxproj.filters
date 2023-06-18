@@ -15,14 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="employee.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="employee.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <Text Include="EmployeeConstructor.txt" />
   </ItemGroup>
 </Project>
